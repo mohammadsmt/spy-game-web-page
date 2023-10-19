@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2F3338;
+    color: #ffffff;
+    font-family: Vazir;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("../assets/fonts //Vazir.eot");
+    src: url("../assets/fonts//Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts//Vazir.woff") format("woff"),
+        url("../assets/fonts//Vazir.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("../assets/fonts//Vazir-Bold.eot");
+    src: url("../assets/fonts//Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts//Vazir-Bold.woff") format("woff"),
+        url("../assets/fonts//Vazir-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("../assets/fonts//Vazir-Light.eot");
+    src: url("../assets/fonts//Vazir-Light.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts//Vazir-Light.woff") format("woff"),
+        url("../assets/fonts//Vazir-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.app-description {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.download-button {
+    background-color: #A51C1C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #8A1717;
+}
